@@ -24,15 +24,15 @@ export function Home(){
                     />
                     <CardHome 
                         icon={<FaAssistiveListeningSystems />}
-                        title='Listening'
-                        description='Here is a collection of my listening exercises, including practice ielts, class listening and homework listening.'
-                        link='view'
+                        title='IELTS Training'
+                        description='Here is a collection of my IELTS training exercises, including class listening and reading.'
+                        link={"/ielts-training"}
                     />
                     <CardHome 
                         icon={<TfiWrite />}
-                        title='Paragraph'
-                        description='Here is a collection of my paragraph writing exercises, class assignments and homework.'
-                        link={"/paragraph"}
+                        title='Quizzes'
+                        description='Here is a collection of my quizzes.'
+                        link={"/quizzes"}
                     />
                     <CardHome 
                         icon={<FaNetworkWired />}
